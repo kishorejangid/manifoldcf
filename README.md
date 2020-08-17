@@ -50,7 +50,7 @@ Some Files and Directories Included in Apache ManifoldCF Source Distributions
 | site | The sources for the Apache ManifoldCF documentation. |
 | tests | The sources for the Apache ManifoldCF integration and load tests. |
 | build.xml | The root ant build script for Apache ManifoldCF. |
-| mvn-bootstrap(.sh|.bat) | The Apache Maven bootstrap script which installs required jars into the local Maven repository. |
+| mvn-bootstrap`[.sh|.bat]` | The Apache Maven bootstrap script which installs required jars into the local Maven repository. |
 | pom.xml | The root Maven build file, which builds certain ManifoldCF jars and war files.  Invoke with "mvn clean install". |
 
 
