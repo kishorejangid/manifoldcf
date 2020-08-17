@@ -37,3 +37,5 @@ jobs:
       run: ant -noinput -buildfile build.xml clean-deps
     - name: Build with Ant - make-deps
       run: ant -noinput -buildfile build.xml make-deps
+    - name: Build with Ant - build
+      run: ant -noinput -buildfile build.xml build
