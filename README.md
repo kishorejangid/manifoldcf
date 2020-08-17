@@ -43,24 +43,16 @@ Instructions for Building Apache ManifoldCF from Source
 Some Files and Directories Included in Apache ManifoldCF Source Distributions
 --------------------------------------------------------------------------
 
-| Folder | Description |
+| File/Directory | Description |
+|--------|-------------|
 | framework | The sources for the Apache ManifoldCF framework. |
 | connectors | The sources for the Apache ManifoldCF connectors. |
 | site | The sources for the Apache ManifoldCF documentation. |
+| tests | The sources for the Apache ManifoldCF integration and load tests. |
+| build.xml | The root ant build script for Apache ManifoldCF. |
+| mvn-bootstrap[.sh|.bat] | The Apache Maven bootstrap script which installs required jars into the local Maven repository. |
+| pom.xml | The root Maven build file, which builds certain ManifoldCF jars and war files.  Invoke with "mvn clean install". |
 
-tests
-  The sources for the Apache ManifoldCF integration and load tests.
-
-build.xml
-  The root ant build script for Apache ManifoldCF.
-
-mvn-bootstrap[.sh|.bat]
-  The Apache Maven bootstrap script which installs required jars into the local Maven
-  repository.
-  
-pom.xml
-  The root Maven build file, which builds certain ManifoldCF jars and war files.  Invoke
-  with "mvn clean install".
 
 Licensing
 ---------
