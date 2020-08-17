@@ -43,14 +43,10 @@ Instructions for Building Apache ManifoldCF from Source
 Some Files and Directories Included in Apache ManifoldCF Source Distributions
 --------------------------------------------------------------------------
 
-framework
-  The sources for the Apache ManifoldCF framework.
-  
-connectors
-  The sources for the Apache ManifoldCF connectors.
-
-site
-  The sources for the Apache ManifoldCF documentation.
+| Folder | Description |
+| framework | The sources for the Apache ManifoldCF framework. |
+| connectors | The sources for the Apache ManifoldCF connectors. |
+| site | The sources for the Apache ManifoldCF documentation. |
 
 tests
   The sources for the Apache ManifoldCF integration and load tests.
