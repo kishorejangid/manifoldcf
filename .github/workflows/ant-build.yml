@@ -27,10 +27,14 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Ant
+    - name: Build with Ant - clean-core-deps
       run: ant -noinput -buildfile build.xml clean-core-deps
+    - name: Build with Ant - make-core-deps
       run: ant -noinput -buildfile build.xml make-core-deps
+    - name: Build with Ant - clean
       run: ant -noinput -buildfile build.xml clean
+    - name: Build with Ant - clean-deps
       run: ant -noinput -buildfile build.xml clean-deps
+    - name: Build with Ant - make-deps
       run: ant -noinput -buildfile build.xml make-deps
 
