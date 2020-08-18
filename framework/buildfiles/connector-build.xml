@@ -422,6 +422,7 @@
                       <include name="neethi*.jar"/>
                       <include name="xml-resolver*.jar"/>
 		      <include name="activation*.jar"/>
+		      <include name="jaxws-api*.jar"/>
                   </fileset>
                   <fileset dir="${mcf-dist}/lib">
                       <include name="velocity*.jar"/>
