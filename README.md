@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0) ![ManifoldCF-Ant-JDK11](https://github.com/kishorejangid/manifoldcf/workflows/ManifoldCF-Ant-JDK11/badge.svg?branch=trunk)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 Welcome to the Apache ManifoldCF project!
 -----------------------------------------
@@ -50,7 +50,7 @@ Some Files and Directories Included in Apache ManifoldCF Source Distributions
 | pom.xml | The root Maven build file, which builds certain ManifoldCF jars and war files.  Invoke with "mvn clean install". |
 
 
-Licensing
+Licensing ![ManifoldCF-Ant-JDK11](https://github.com/kishorejangid/manifoldcf/workflows/ManifoldCF-Ant-JDK11/badge.svg?branch=trunk)
 ---------
 
 ManifoldCF is licensed under the
